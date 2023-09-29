@@ -16,6 +16,7 @@ class Rotas extends StatelessWidget {
         '/login': (context) => LoginUsuario(),
         '/menu' : (context) => Menu(),
         '/produtos' : (context) => ProdutoPage(),
+        '/loginsql' : (context) => LoginSql(),
       },
     );
   }
